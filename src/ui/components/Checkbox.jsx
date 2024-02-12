@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import { FaCheckCircle, FaRegCircle } from 'react-icons/fa';
 
-export default function Checkbox() {
+export default function Checkbox(props) {
   const [isChecked, setIsChecked] = useState(false);
 
   const toggleCheckbox = () => {
     setIsChecked(!isChecked);
+    props.taskCounter();
   };
 
   return (
