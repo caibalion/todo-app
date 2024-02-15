@@ -59,7 +59,7 @@ export default function Content() {
               <span className="ml-2 rounded-full bg-[#333333] text-[#D9D9D9] py-[2px] px-2">0</span>
             </div>
           </div>
-          <div className="h-[60dvh] overflow-y-scroll appearance-none">
+          <div className="h-[60dvh] overflow-y-scroll scrollbar-thin appearance-none">
             <ul>
               {tasks.map((task, index) => (
                 <Task key={index} text={task} onDelete={() => deleteTask(index)} />
