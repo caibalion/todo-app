@@ -14,7 +14,7 @@ export default function TodoBlock() {
             <span className="ml-2 rounded-full bg-[#333333] text-[#D9D9D9] py-[2px] px-2">0</span>
           </div>
         </div>
-        <div className="h-[60dvh] overflow-y-scroll appearance-none">
+        <div className="h-[60dvh] appearance-none">
           <ul>
             <Task />
           </ul>

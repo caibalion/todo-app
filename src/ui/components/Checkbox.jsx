@@ -9,12 +9,8 @@ export default function Checkbox() {
   };
 
   return (
-    <button className="appearance-none m-[0.375rem] p-0 h-[1.125rem]" onClick={toggleCheckbox}>
-      {isChecked ? (
-        <FaCheckCircle className="w-[1.125rem] h-full text-purple-dark hover:text-purple" />
-      ) : (
-        <FaRegCircle className="w-[1.125rem] h-full text-blue hover:text-blue-dark" />
-      )}
-    </button>
+    <div className="w-[10%] rounded-s-lg hover:bg-purple-dark transition ease-in-out delay-150 hover:scale-110 duration-100">
+      <button className="w-full h-full "></button>
+    </div>
   );
 }
